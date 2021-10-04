@@ -1,0 +1,59 @@
+[{
+    "id": 1,
+    "name": "Accounting",
+    "price":160,
+    "detail":"the process of recording, assessing, and communicating financial transactions",
+    "img":"https://cdn.corporatefinanceinstitute.com/assets/accounting-1024x683.jpeg"
+  }, {
+    "id": 2,
+    "name": "Biochemistry",
+    "price":31,
+    "detail":"the branch of science that explores the chemical processes within and related to living organisms",
+    "img":"https://leverageedu.com/blog/wp-content/uploads/2020/03/biochemistry.jpg"
+    
+  }, {
+    "id": 3,
+    "name": "Biology",
+    "detail":"a branch of science that deals with living organisms and their vital processes.",
+    "price":39,
+    "img":"https://miro.medium.com/max/1200/0*jmrpnXe-djmTh37l."
+  }, {
+    "id": 4,
+    "name": "Physics",
+    "price":32,
+    "detail":"Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves.",
+    "img":"https://images.theconversation.com/files/191827/original/file-20171025-25516-g7rtyl.jpg?ixlib=rb-1.1.0&rect=0%2C70%2C7875%2C5667&q=45&auto=format&w=926&fit=clip"
+    
+  }, {
+    "id": 5,
+    "name": "Chemistry",
+    "price":89,
+    "detail":" the scientific study of the properties and behavior of matter.",
+    "img":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/fa/6926005ea411e490ff8d4c5d4ff426/chemistry_logo.png?auto=format%2Ccompress&dpr=1"
+  }, {
+    "id": 6,
+    "name": "Computer science",
+    "price":221,
+    "detail":" the study of computers and computing as well as their theoretical and practical applications.",
+    "img":"https://images2.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg"
+  }, {
+    "id": 7,
+    "name": "Economics",
+    "detail":"Economics is the social science that studies how people interact with value.",
+    "price":80,
+    "img":"https://www.vapulus.com/en/wp-content/uploads/2018/12/economics.jpg"
+    
+  }, {
+    "id": 8,
+    "name": "Finance",
+    "detail":"the management of money and includes activities such as investing, borrowing, lending, budgeting, saving, and forecasting.",
+    "price":53,
+    "img":"https://images.financialexpress.com/2021/07/6-4.jpg"
+  }, {
+    "id": 9,
+    "name": "Management",
+    "price":27,
+    "detail":"the administration of an organization, whether it is a business, a non-profit organization, or a government body. ",
+    "img":"https://www.ssim.ac.in/blog/wp-content/uploads/2019/12/What-is-management.jpg"
+    
+  }]

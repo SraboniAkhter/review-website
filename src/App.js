@@ -1,24 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Course from "./Components/Course/Course";
+import Footer from "./Components/Footer/Footer";
+import Home from "./Components/Home/Home";
+import Header from "./Components/Header/Header"
+import About from "./Components/About/About";
+import Service from "./Components/Service/Service";
+import Contact from "./Components/Contact/Contact";
+import NoMatch from "./Components/NoMatch/NoMatch";
+import Teacher from "./Components/Teacher/Teacher";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router>
+       <div>
+        <Header></Header>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/service">
+            <Service />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/teacher">
+            <Teacher />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="*">
+            <NoMatch />
+          </Route>
+          <Route path="/course">
+            <Course />
+          </Route>
+        </Switch>
+      <Footer></Footer>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,27 @@
+[{
+    "id": 1,
+    "name": "Accounting",
+    "price":160,
+    "detail":"the process of recording, assessing, and communicating financial transactions",
+    "img":"https://cdn.corporatefinanceinstitute.com/assets/accounting-1024x683.jpeg"
+  }, {
+    "id": 2,
+    "name": "Biochemistry",
+    "price":31,
+    "detail":"the branch of science that explores the chemical processes within and related to living organisms",
+    "img":"https://leverageedu.com/blog/wp-content/uploads/2020/03/biochemistry.jpg"
+    
+  }, {
+    "id": 3,
+    "name": "Biology",
+    "detail":"a branch of science that deals with living organisms and their vital processes.",
+    "price":39,
+    "img":"https://miro.medium.com/max/1200/0*jmrpnXe-djmTh37l."
+  }, {
+    "id": 4,
+    "name": "Physics",
+    "price":32,
+    "detail":"Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves.",
+    "img":"https://images.theconversation.com/files/191827/original/file-20171025-25516-g7rtyl.jpg?ixlib=rb-1.1.0&rect=0%2C70%2C7875%2C5667&q=45&auto=format&w=926&fit=clip"
+    
+  }]
