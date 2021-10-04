@@ -5,7 +5,10 @@ const Footer = () => {
     return (
         <div className="footer-basic">
             <div className="social">
-                <Link to="#"><i class="icon ion-social-instagram"></i></Link><Link to="#"><i class="icon ion-social-twitter"></i></Link><Link to="#"><i class="icon ion-social-facebook"></i></Link></div>
+                <Link to="#"><i class="icon ion-social-instagram"></i></Link>
+                <Link to="#"><i class="icon ion-social-twitter"></i></Link>
+                <Link to="#"><i class="icon ion-social-facebook"></i></Link>
+                </div>
             <ul class="list-inline">
                 <li class="list-inline-item"><Link to="/home">Home</Link></li>
                 <li class="list-inline-item"><Link to="/service">Service</Link></li>
